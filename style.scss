@@ -1,0 +1,65 @@
+$buttonColor : rgb(142, 88, 214);
+$borderRadius : 4px;
+$fontFamily : "Times New Roman", Times, serif;
+$textColor : #e9178b;
+$fontweight : bold;
+$lineHeight : 1.6;
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+        }
+       
+h1 {
+    color: $textColor;
+    font-family: $fontFamily;
+    font-size: 1.6em;
+    text-align : center;
+    font-weight: $fontweight;
+    padding-top: 40px;
+    letter-spacing: .01em;
+    line-height: $lineHeight; 
+}
+body {
+    color: $textColor;
+    font-family: $fontFamily ;
+    font-size: 1.6em;
+    font-weight : $fontweight;
+    letter-spacing: .01em;
+    line-height: $lineHeight;
+  }
+  input[type=text], select {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid $buttonColor;
+    border-radius: $borderRadius;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: $buttonColor;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: $borderRadius;
+    cursor: pointer;
+  }
+  .btn
+  {
+  background-color: $buttonColor; 
+  border: none;
+  color: white;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: $borderRadius;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: $buttonColor;
+  }
